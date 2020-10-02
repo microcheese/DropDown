@@ -3,7 +3,7 @@
 
  let package = Package(
      name: "DropDown",
-     platforms: [.iOS(.v8)]
+     platforms: [.iOS(.v8)],
      products: [
          .library(name: "DropDown", targets: ["DropDown"])
      ],
